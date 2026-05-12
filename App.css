@@ -1,0 +1,13 @@
+/* Update your theme variables */
+:root {
+  --card-text: #1a202c; /* Dark color for Light Mode */
+}
+
+[data-theme='dark'] {
+  --card-text: #ffffff; /* White color for Dark Mode */
+}
+
+/* Apply to your Car Title */
+.car-card h3 {
+  color: var(--card-text);
+}
